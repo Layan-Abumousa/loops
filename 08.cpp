@@ -2,12 +2,17 @@
 using namespace std;
 
 int main() {
-    int a = 56, b = 98;
-    while(a != b) {
-        if(a > b)
-            a -= b;
-        else
-            b -= a;
+    int x, y; 
+    cout << "Enter two numbers " << endl; 
+    cin >> x >> y; 
+    int gcd = 1; 
+    for (int i = 2; i < min(x,y); i++)
+    {
+        if (x%i == 0 && y%i==0)
+        {
+            gcd = i;
+        }
     }
-    cout << "GCD: " << a << endl;
+   
+    cout << "GCD: " << gcd ;
 }
