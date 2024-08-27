@@ -4,7 +4,7 @@ int main()
 {
 
 for(int i = 1; i <= 10; i++) {
-    cout << i << std<<endl;
+    cout << i <<endl;
 }
 
 }
