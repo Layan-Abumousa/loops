@@ -14,3 +14,4 @@ int main() {
     double average = sum / count ;
     cout << "Sum: " << sum << ", Average: " << average << endl;
 
+}
